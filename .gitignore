@@ -1,0 +1,7 @@
+# Não captura essas pastas ao salvar no git
+obj/
+bin/
+.vs/
+
+# Não captura esse arquivo do usuário
+*.csproj.user
