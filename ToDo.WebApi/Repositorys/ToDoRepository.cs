@@ -3,7 +3,7 @@ using ToDo.Domain.Entities;
 using ToDo.Infra.Services;
 using ToDo.WebApi.Interfaces;
 
-namespace ToDoApi.Repositorys
+namespace ToDo.WebApi.Repositorys
 {
     public class ToDoRepository : IToDoRepository
     {

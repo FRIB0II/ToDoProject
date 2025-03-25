@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ToDo.Domain.Entities;
 using ToDo.WebApi.Interfaces;
-using ToDoApi.Repositorys;
 
-namespace ToDoApi.Controllers
+
+namespace ToDo.WebApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class ToDoController : ControllerBase

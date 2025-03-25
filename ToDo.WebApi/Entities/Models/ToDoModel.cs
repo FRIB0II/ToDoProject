@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ToDoApi.Entities.Models
+namespace ToDo.WebApi.Entities.Models
 {
     public class ToDoModel
     {
@@ -16,7 +16,7 @@ namespace ToDoApi.Entities.Models
         public string Description { get; set; }
 
         [Column("DeadLine")]
-        public DateTime DeadLine  { get; set; }
+        public DateTime DeadLine { get; set; }
 
         [Column("Category")]
         public string Category { get; set; }
